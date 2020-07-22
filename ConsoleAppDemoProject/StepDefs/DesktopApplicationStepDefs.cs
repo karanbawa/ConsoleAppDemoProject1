@@ -61,7 +61,7 @@ namespace ConsoleAppDemoProject.StepDefs
 
            /* Assert.Multiple(() =>
             {*/
-                Assert.That("Start Process", Is.EqualTo("Start Process"), "text does bnot match");
+                Assert.That("Start ", Is.EqualTo("Start Process"), "text does bnot match");
                // Assert.That("hi", Is.Not.Null, "good");
             /*});*/
 
