@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.11.1.0" clr-version="4.0.30319.42000" start-time="2020-07-22 20:41:41Z" end-time="2020-07-22 20:41:47Z" duration="5.893273">
+  <command-line><![CDATA[nunit3-console.exe  "C:\Users\hp\source\repos\ConsoleAppDemoProject\ConsoleAppDemoProject\bin\Debug\ConsoleAppDemoProject.exe"]]></command-line>
+  <test-suite type="Assembly" id="0-1003" name="ConsoleAppDemoProject.exe" fullname="C:\Users\hp\source\repos\ConsoleAppDemoProject\ConsoleAppDemoProject\bin\Debug\ConsoleAppDemoProject.exe" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-07-22 20:41:42Z" end-time="2020-07-22 20:41:47Z" duration="5.208359" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.18363.0" platform="Win32NT" cwd="C:\Users\hp\source\repos\ConsoleAppDemoProject\packages\NUnit.ConsoleRunner.3.11.1\tools" machine-name="LAPTOP-4ONFSHPF" user="hp" user-domain="LAPTOP-4ONFSHPF" culture="en-IN" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\hp\source\repos\ConsoleAppDemoProject\packages\NUnit.ConsoleRunner.3.11.1\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="RuntimeFramework" value="net-4.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="29620" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="SetUpFixture" id="0-1000" name="[default namespace]" fullname="ConsoleAppDemoProject_NUnitAssemblyHooks" classname="ConsoleAppDemoProject_NUnitAssemblyHooks" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-07-22 20:41:42Z" end-time="2020-07-22 20:41:47Z" duration="5.189546" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <output><![CDATA[-> Loading plugin C:\Users\hp\source\repos\ConsoleAppDemoProject\ConsoleAppDemoProject\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Using default config
+]]></output>
+      <test-suite type="TestSuite" id="0-1004" name="ConsoleAppDemoProject" fullname="ConsoleAppDemoProject" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-07-22 20:41:43Z" end-time="2020-07-22 20:41:45Z" duration="1.945870" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-suite type="TestSuite" id="0-1005" name="Features" fullname="ConsoleAppDemoProject.Features" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-07-22 20:41:43Z" end-time="2020-07-22 20:41:45Z" duration="1.945722" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-suite type="TestFixture" id="0-1001" name="DesktopApplicationFeature" fullname="ConsoleAppDemoProject.Features.DesktopApplicationFeature" classname="ConsoleAppDemoProject.Features.DesktopApplicationFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-07-22 20:41:43Z" end-time="2020-07-22 20:41:45Z" duration="1.934075" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <properties>
+              <property name="Description" value="DesktopApplication" />
+            </properties>
+            <test-case id="0-1002" name="CheckWinAppFriverTest" fullname="ConsoleAppDemoProject.Features.DesktopApplicationFeature.CheckWinAppFriverTest" methodname="CheckWinAppFriverTest" classname="ConsoleAppDemoProject.Features.DesktopApplicationFeature" runstate="Runnable" seed="549905507" result="Passed" start-time="2020-07-22 20:41:43Z" end-time="2020-07-22 20:41:45Z" duration="1.915632" asserts="1">
+              <properties>
+                <property name="Description" value="Check WinAppFriverTest" />
+                <property name="Category" value="SmokeTest" />
+              </properties>
+              <output><![CDATA[Given I have launched the application
+-> done: DesktopApplicationStepDefs.GivenIHaveLaunchedTheApplication() (0.6s)
+When I have entered username "admin" and password "admin"
+-> done: DesktopApplicationStepDefs.GivenIHaveEnteredUsernameAndPassword("admin", "admin") (0.8s)
+Then i click to login button
+-> done: DesktopApplicationStepDefs.GivenIClickToLoginButton() (0.3s)
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
